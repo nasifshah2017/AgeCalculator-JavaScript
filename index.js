@@ -33,7 +33,6 @@ const calculateAge = () => {
     totalMonth = 12 + currentMonth - birthMonth;
   }
 
-
   if(currentDate >= birthDate) {
     totalDays = currentDate = birthDate;
   } else {
